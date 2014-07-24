@@ -2,6 +2,9 @@ This project include two function.
 1.Launch animation images
 2.App version check and remind automatically
 
+Motivation
+----------
+
 - An UIImageView category adding web image and cache management to the Cocoa Touch framework
 
 ************************************
