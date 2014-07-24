@@ -9,6 +9,8 @@ If you want to add a launch animation for your application, import folder launch
 You can change images that in the folder.
 
 
+
+
 add images that you need
     imageNameAry = [[NSMutableArray alloc] init];
     if (heith == 480) {
@@ -18,7 +20,6 @@ add images that you need
         [imageNameAry addObject:@"launch3.jpg"];
         [imageNameAry addObject:@"launch4.jpg"];
 //        [imageNameAry addObject:@"launch5.jpg"];
-
     } else {
         //        4.0寸的启动图
         [imageNameAry addObject:@"launch1-568h.jpg"];
@@ -26,14 +27,13 @@ add images that you need
         [imageNameAry addObject:@"launch3-568h.jpg"];
         [imageNameAry addObject:@"launch4-568h.jpg"];
         [imageNameAry addObject:@"launch5-568h.jpg"];
-
     }
 
 
 add code
 
 Example
-#import "LaunchAnimationView.h"
+ #import "LaunchAnimationView.h"
 
 after  
 [self.window makeKeyAndVisible];
@@ -46,6 +46,7 @@ modify #define appNewestInfo and #define appDownLoadUrl to your appliction.
 
  add code
  Example
+ 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     [VersionUpdateAssistant updateAppVersionInfomation];
