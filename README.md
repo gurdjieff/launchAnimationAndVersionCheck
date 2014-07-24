@@ -11,7 +11,7 @@ You can change images that in the folder.
 
 
 
-add images that you need
+  add images that you need
     imageNameAry = [[NSMutableArray alloc] init];
     if (heith == 480) {
 //        3.5寸的启动图
