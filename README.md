@@ -37,7 +37,7 @@ Example
  add code
  Example
  
-> [self.window makeKeyAndVisible];
+>     [self.window makeKeyAndVisible];
 
 - [LaunchAnimationView addLaunchAnimationViewImages];
     
