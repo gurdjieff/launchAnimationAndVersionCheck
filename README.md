@@ -33,9 +33,9 @@ Example
 #import "LaunchAnimationView.h"
  after  
 
+[self.window makeKeyAndVisible];
  add code
  Example
- 
  
 [self.window makeKeyAndVisible];
 [LaunchAnimationView addLaunchAnimationViewImages];
