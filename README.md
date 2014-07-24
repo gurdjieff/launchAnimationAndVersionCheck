@@ -1,5 +1,3 @@
-
-
 This project include two function.
 1.Launch animation images
 2.App version check and remind automatically
@@ -9,10 +7,9 @@ If you want to add a launch animation for your application, import folder launch
 You can change images that in the folder.
 
 
-
-
-  add images that you need
+add images that you need
     imageNameAry = [[NSMutableArray alloc] init];
+    
     if (heith == 480) {
 //        3.5寸的启动图
         [imageNameAry addObject:@"launch1.jpg"];
@@ -61,5 +58,3 @@ Example
 {
     [VersionUpdateAssistant checkAppVersionInfomation];
 }
-
-
