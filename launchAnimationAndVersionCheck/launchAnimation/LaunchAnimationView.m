@@ -34,7 +34,7 @@
         [imageNameAry addObject:@"launch2.jpg"];
         [imageNameAry addObject:@"launch3.jpg"];
         [imageNameAry addObject:@"launch4.jpg"];
-//        [imageNameAry addObject:@"launch5.jpg"];
+        [imageNameAry addObject:@"launch5.jpg"];
 
     } else {
         //        4.0寸的启动图
