@@ -8,16 +8,18 @@ You can change images that in the folder.
 
 
 add images that you need
+
     imageNameAry = [[NSMutableArray alloc] init];
-    
-    
     if (heith == 480) {
+    
 //        3.5寸的启动图
+
         [imageNameAry addObject:@"launch1.jpg"];
         [imageNameAry addObject:@"launch2.jpg"];
         [imageNameAry addObject:@"launch3.jpg"];
         [imageNameAry addObject:@"launch4.jpg"];
 //        [imageNameAry addObject:@"launch5.jpg"];
+
     } else {
         //        4.0寸的启动图
         [imageNameAry addObject:@"launch1-568h.jpg"];
@@ -50,10 +52,11 @@ modify #define appNewestInfo and #define appDownLoadUrl to your appliction.
     [VersionUpdateAssistant updateAppVersionInfomation];
 }
 
-it will check version and remind automatically once a day
+//it will check version and remind automatically once a day
 
-add code to anywhere you require
-Example
+//add code to anywhere you require
+//Example
+
 
 -(void)checkBtnClick:(UIButton *)apBtn
 {
