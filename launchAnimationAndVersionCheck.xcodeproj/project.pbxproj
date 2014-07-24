@@ -40,6 +40,7 @@
 		41BCB9D21980C8540076C48E /* launch5-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BCB9C31980C8540076C48E /* launch5-568h@2x.jpg */; };
 		41BCB9D31980C8540076C48E /* launch5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BCB9C41980C8540076C48E /* launch5.jpg */; };
 		41BCB9D41980C8540076C48E /* launch5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BCB9C51980C8540076C48E /* launch5@2x.jpg */; };
+		41BCBA1E1980FE980076C48E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41BCBA1D1980FE980076C48E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		41BCB9C31980C8540076C48E /* launch5-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch5-568h@2x.jpg"; sourceTree = "<group>"; };
 		41BCB9C41980C8540076C48E /* launch5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch5.jpg; sourceTree = "<group>"; };
 		41BCB9C51980C8540076C48E /* launch5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launch5@2x.jpg"; sourceTree = "<group>"; };
+		41BCBA1D1980FE980076C48E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		41BCB91F19809B7A0076C48E = {
 			isa = PBXGroup;
 			children = (
+				41BCBA1D1980FE980076C48E /* README.md */,
 				41BCB93119809B7A0076C48E /* launchAnimationAndVersionCheck */,
 				41BCB94A19809B7A0076C48E /* launchAnimationAndVersionCheckTests */,
 				41BCB92A19809B7A0076C48E /* Frameworks */,
@@ -324,6 +327,7 @@
 				41BCB9CC1980C8540076C48E /* launch3-568h@2x.jpg in Resources */,
 				41BCB9D21980C8540076C48E /* launch5-568h@2x.jpg in Resources */,
 				41BCB9C81980C8540076C48E /* launch1@2x.jpg in Resources */,
+				41BCBA1E1980FE980076C48E /* README.md in Resources */,
 				41BCB9CE1980C8540076C48E /* launch3@2x.jpg in Resources */,
 				41BCB9C91980C8540076C48E /* launch2-568h@2x.jpg in Resources */,
 				41BCB9D11980C8540076C48E /* launch4@2x.jpg in Resources */,
@@ -557,6 +561,7 @@
 				41BCB95619809B7A0076C48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41BCB95719809B7A0076C48E /* Build configuration list for PBXNativeTarget "launchAnimationAndVersionCheckTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +570,7 @@
 				41BCB95919809B7A0076C48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
