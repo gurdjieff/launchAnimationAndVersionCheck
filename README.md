@@ -2,6 +2,8 @@ This project include two function.
 1.Launch animation images
 2.App version check and remind automatically
 
+- An UIImageView category adding web image and cache management to the Cocoa Touch framework
+
 ************************************
  Using UIImageView+WebCache category with UITableView
  
@@ -63,7 +65,7 @@ modify #define appNewestInfo and #define appDownLoadUrl to your appliction.
 add code to anywhere you require
 Example
 
--(void)checkBtnClick:(UIButton *)apBtn
-{
-    [VersionUpdateAssistant checkAppVersionInfomation];
-}
+- -(void)checkBtnClick:(UIButton *)apBtn
+- {
+-     [VersionUpdateAssistant checkAppVersionInfomation];
+- }
