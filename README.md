@@ -3,8 +3,10 @@ This project include two function.
 2.App version check and remind automatically
 
 ************************************
-If you want to add a launch animation for your application, import folder launchAnimation to your project.
-You can change images that in the folder.
+ Using UIImageView+WebCache category with UITableView
+
+### If you want to add a launch animation for your application, import folder launchAnimation to your project.
+### You can change images that in the folder.
 
 
 add images that you need
