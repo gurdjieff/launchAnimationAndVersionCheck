@@ -12,7 +12,7 @@ Motivation
 - An UIImageView category adding web image and cache management to the Cocoa Touch framework
 
 ************************************
- Using UIImageView+WebCache category with UITableView
+> Using UIImageView+WebCache category with UITableView
  
  Web Image
 =========
