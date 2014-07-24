@@ -4,6 +4,9 @@ This project include two function.
 
 ************************************
  Using UIImageView+WebCache category with UITableView
+ 
+ Web Image
+=========
 
 ### If you want to add a launch animation for your application, import folder launchAnimation to your project.
 ### You can change images that in the folder.
